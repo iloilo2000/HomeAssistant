@@ -52,6 +52,8 @@ constexpr char units::GJ[];
 constexpr char units::MJ[];
 constexpr char units::kvar[];
 constexpr char units::kvarh[];
+constexpr char units::var[];
+constexpr char units::varh[];
 constexpr char units::Hz[];
 
 constexpr ObisId identification::id;
@@ -99,9 +101,6 @@ constexpr char energy_returned_tariff3::name[];
 
 constexpr ObisId energy_returned_tariff4::id;
 constexpr char energy_returned_tariff4::name[];
-
-constexpr ObisId energy_absolute::id;
-constexpr char energy_absolute::name[];
 
 constexpr ObisId energy_absolute_tariff1::id;
 constexpr char energy_absolute_tariff1::name[];
@@ -174,17 +173,17 @@ constexpr char electricity_tariff::name[];
 constexpr ObisId breaker_status::id;
 constexpr char breaker_status::name[];
 
-constexpr ObisId breaker_status_b::id;
-constexpr char breaker_status_b::name[];
-
 constexpr ObisId power_delivered::id;
 constexpr char power_delivered::name[];
 
 constexpr ObisId power_returned::id;
 constexpr char power_returned::name[];
 
-constexpr ObisId electricity_threshold::id;
-constexpr char electricity_threshold::name[];
+constexpr ObisId absolute_active_energy::id;
+constexpr char absolute_active_energy::name[];
+
+// constexpr ObisId electricity_threshold::id;
+// constexpr char electricity_threshold::name[];
 
 constexpr ObisId electricity_threshold_l1::id;
 constexpr char electricity_threshold_l1::name[];
